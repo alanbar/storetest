@@ -1,6 +1,7 @@
 <script>
 import { store } from './store.js'
 import { get } from 'svelte/store';
+// get should be used sparingly
 
 const storedValue = get(store);	
 console.log('value: ', storedValue)
